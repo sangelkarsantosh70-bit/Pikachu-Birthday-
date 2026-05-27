@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Pikachu ⚡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="bgMusic" loop preload="auto">
+<source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=calm-piano-ambient-110397.mp3" type="audio/mp3">
+</audio>
+
+<div id="stars"></div>
+
+<section class="screen active" id="screen1">
+<h1 class="main-title">
+Some memories never really leave us ✨
+</h1>
+<p class="subtitle">
+A small birthday memory for Pikachu ⚡
+</p>
+<button class="main-btn" id="startBtn">
+Open 💌
+</button>
+</section>
+
+<section class="screen" id="screen2">
+<div class="envelope-wrapper">
+<div class="envelope" onclick="openLetter()">
+💌
+</div>
+<p class="envelope-text">
+For Pikachu ⚡
+</p>
+<p class="tap-text">
+Tap the envelope ✨
+</p>
+</div>
+</section>
+
+<section class="screen" id="screen3">
+<div class="letter">
+<h2>
+Happy Birthday Vahini 🎂
+</h2>
+<div id="typing"></div>
+</div>
+</section>
+
+<section class="screen" id="screen4">
+<div class="final-box">
+<h2 class="last-line">
+One last thing... ✨
+</h2>
+<p class="question">
+If life gives us more memories together...<br>
+promise me you'll smile the same way? 🌸
+</p>
+<div class="btn-group">
+<button class="promise-btn">
+💛 Promise
+</button>
+<button class="promise-btn">
+⚡ Pikachu Promise
+</button>
+</div>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
